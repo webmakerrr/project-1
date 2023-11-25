@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #ffe2B0;
+}
+
+@font-face {
+  font-family: 'Roboto!';
+  src: local('Roboto');
+  src: url(../fonts/Roboto-Regular.ttf)
+}
+
+
+header{
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 15px;
+}
+
+.list{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+li{
+  display: inline;
+  margin-right: 100px;
+}
+
+li:last-child{
+  margin: 0;
+}
+
+a{
+  color:rgb(149, 105, 57);
+  text-decoration: none;
+  font-size: 22px;
+}
+
+a:hover{
+  color: black;
+}
+
+.about-company{
+  text-align: center;
+}
+
+.about-company-title{
+  font-size: 40px;
+  color: rgb(86, 62, 36);
+}
+
+.about-company-img{
+  width: auto;
+  height: 600px;
+  margin-bottom: 30px;
+}
+
+.about-company-span{
+  color: #da573a;
+}
+
+.line{
+  border-top: 1px black solid;
+  width: 1024px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.about-company-paragraph{
+  width: 1000px;
+  height: 400px;
+  font-size: 24px;
+  margin: 0 auto;
+  text-align:center;
+}
